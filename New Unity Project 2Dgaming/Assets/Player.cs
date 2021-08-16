@@ -22,7 +22,7 @@ public class Player : MonoBehaviour
                 this.transform.position += Vector3.left * speed * Time.deltaTime;
         }
 
-        if (Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.RightArrow))
         {
             if (this.transform.position.x < 1.75)
                 this.transform.position += Vector3.right * speed * Time.deltaTime;
